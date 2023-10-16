@@ -1,0 +1,63 @@
+// app global css in SCSS form
+@import "custom/notify";
+@import "custom/uploadFile";
+body{
+  color: $blue-grey-4;
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+  padding: 0;
+}
+.q-page-container, .q-header .q-toolbar{
+  padding-right: 12px;
+  padding-left: 12px;
+}
+@media (min-width: $breakpoint-sm-min){
+  .q-page-container, .q-header .q-toolbar{
+    padding-right: 36px;
+    padding-left: 36px;
+  }
+}
+@media (min-width: $breakpoint-md-min){
+  .q-page-container, .q-header .q-toolbar{
+    padding-right: 12px;
+    padding-left: 0;
+  }
+}
+.q-page{
+  background-color: white;
+  border-radius: 25px 25px 0 0;
+  padding: 20px 16px;
+}
+.q-field--disabled{
+  .q-field__control{
+    background-color: $grey-4;
+  }
+}
+.ham--btn{
+  visibility: visible;
+}
+@media (min-width: $breakpoint-md-min){
+  .ham--btn{
+    visibility: hidden;
+  }
+}
+.list--menu{
+  .q-item{
+    border-radius: 8px;
+  }
+}
+.expand--menu{
+  border-radius: 8px;
+  .q-item__section{ padding-right: 0; }
+}
+.submenu{
+  margin-left: 50px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.header-page--wrapper{
+  margin-bottom: 30px;
+  color: #000;
+  font-weight: 500;
+}

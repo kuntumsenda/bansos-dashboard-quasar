@@ -1,0 +1,21 @@
+.q-notification__content{
+  .q-icon{
+    font-size: 30px;
+  }
+}
+.q-notification__caption{
+  font-size: 12px;
+  font-weight: 400;
+}
+.q-notification__message{
+  font-weight: 500;
+  font-size: 16px;
+}
+.q-notification__actions{
+  position: absolute;
+  top: -12px;
+  right: -26px;
+  .q-icon{
+    font-size: 16px;
+  }
+}
